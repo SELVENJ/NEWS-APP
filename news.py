@@ -29,7 +29,7 @@ if selected:
                        with st.spinner("Wait for a second"):
                            time.sleep(5)
         
-                       DETA_KEY ="d0yz71smpt6_DHwfWqpYu865GAhNXngRAMkvsK1XMnxr"
+                       DETA_KEY ="yuihvgfjjijtfcjjj"
                        deta = Deta(DETA_KEY)
                        db = deta.Base("Workshop")
                        res = db.fetch(query={"category?contains": select})
